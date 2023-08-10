@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+main{
+    font-family: 'Montserrat', sans-serif;
+}
+#precoprincipal,h2 {
+    font-family: 'Fraunces', serif;
+}
+
+#precoprincipal{
+    color:hsl(158, 36%, 37%);
+    font-size: 30px;
+}
+#h3-perfume {
+    text-transform: uppercase;
+    color:  hsl(228, 12%, 48%);
+    letter-spacing: 4px;
+    font-size:10px ;
+    height: 18px;
+    align-items: center;   
+}
+body{
+    background-color: antiquewhite;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    border-radius: 5px;
+
+}
+.informacoes{
+    margin:6px;
+    padding-left: 25px;
+    width: 100%;
+    height: 440px;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+    border-top-left-radius:5px  ;
+    border-bottom-left-radius: 5px;
+}
+h2{
+    font-size: 27px;
+    width: 160px;
+}
+.maiusculo{
+    text-transform: uppercase;
+}
+p{
+    color:  hsl(228, 12%, 48%);
+    width: 240px;
+    font-size:14px;
+}
+.precos{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+  
+}
+#precoprincipal{
+    margin-right: 40px;
+}
+del{
+    color:  hsl(228, 12%, 48%);
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 10px;
+    color: #ffff;
+    text-align: center;
+    width: 90%;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;    
+    margin-top: 13px;
+
+}
+button:hover{
+    background-color: hsl(212, 21%, 14%);
+    cursor: pointer;
+}
